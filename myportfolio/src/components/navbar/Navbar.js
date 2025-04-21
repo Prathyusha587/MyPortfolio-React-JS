@@ -44,9 +44,7 @@ const Navbar = () => {
               <div>
                 {/* <img className="w-32" src={logo} alt="logo" /> */}
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -74,10 +72,15 @@ const Navbar = () => {
                   Find me on
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+                <a
+              href="https://www.linkedin.com/in/k-v-h-prathyusha-a3506a1a0/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+               >
+              <FaLinkedinIn />
+              </a>
+              </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
